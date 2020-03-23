@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>BEST OF 3 SEQUENCE SCORE</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="card-group">
+        <div class="card">
+            <div class="card-body">
+                <h3>Enter value of match,mismatch and gap</h3>
+                <form>
+                    <label for="match">MATCH</label><br>
+                    <input type="text" id="match"><br><br>
+                    <label for="mismatch">MISMATCH</label><br>
+                    <input type="text" id="mismatch"><br><br> 
+                    <label for="gap">GAP</label><br>
+                    <input type="text" id="gap"><br><br>
+                </form>
+            </div>
+        </div>
+        <div class="card"> 
+            <div class="card-body">       
+                <h3>ENTER THE SEQUENCES</h3>
+                <form>
+                    <label for="seq1">SEQUENCE 1</label><br>
+                    <input type="text" id="seq1"><br><br>
+                    <label for="seq2">SEQUENCE 2</label><br>
+                    <input type="text" id="seq2"><br><br>
+                    <label for="seq3">SEQUENCE 3</label><br>
+                    <input type="text" id="seq3"><br><br>
+                </form>
+            </div>
+        </div>    
+    </div>
+    
+    <div class="ex1">
+        <label for="result"><h4>SCORE</h4></label><br>
+        <output type="text" id="result"></output><br><br>
+        <label for="seqresult"><h4>BEST SEQUENCE PAIR</h4></label><br>
+        <output type="text" id="seqresult"></output><br><br>
+        <button onclick="score3()">FIND THE BEST SCORE</button>
+        <a href="index.html">
+            <button type="button">Back to main menu</button>
+        </a>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
